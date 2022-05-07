@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import SelectInput from '../../components/SelectInput';
 
 import {
     Container,
@@ -17,10 +18,10 @@ const Intencao: React.FC = () => {
             <Textp> Cadastre ou edite os intenção disponiveis.</Textp>
 
             <Content>
-
                 <Textp> Projeto </Textp>
+                <SelectInput/>
 
-
+            
             </Content>
         </Container>
     );

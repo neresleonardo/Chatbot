@@ -1,4 +1,5 @@
 import React from 'react';
+import SelectInput from '../../components/SelectInput';
 
 import {
     Container,
@@ -19,7 +20,8 @@ const Dashboard: React.FC = () => {
             <Content>
 
                 <Textp> Projeto </Textp>
-
+                
+                <SelectInput/>
 
             </Content>
         </Container>

@@ -4,7 +4,6 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-    display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 400px;
@@ -18,12 +17,18 @@ export const Text = styled.text`
     color:  ${props => props.theme.colors.white};
     font-size: 25px;
     display: flex;
+    margin-bottom: 10px;
     
 `;
 
 export const Textp = styled.text`
         color:  ${props => props.theme.colors.white};
         font-size: 18px;
+        margin-bottom: 10px;
 `;
+
+
+
+
 
 
